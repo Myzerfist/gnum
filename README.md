@@ -6,7 +6,8 @@ Docs:
 To generate a random integer between 0 and the max value
 ```
 # Replace max with max value number
-numg.numgint(max)
+gnumg.gnumint(max)
 ```
 Updates?
 - Add more number types
+- ~~Add to pypi~~
