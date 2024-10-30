@@ -15,10 +15,6 @@ jobs:
           bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda
           echo "$HOME/miniconda/bin" >> $GITHUB_PATH
 
-      - name: Install dependencies
-        run: |
-          conda env update --file environment.yml --name base  # Adjust path if necessary
-
       - name: Lint with flake8
         run: |
           source activate base  # Activate the base environment
